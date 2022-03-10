@@ -1,0 +1,260 @@
+.modal-form {
+  position: relative;
+  padding: 24px 24px 10px !important;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  pointer-events: auto;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  font-feature-settings: "tnum";
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.modal-header {
+  padding: 16px 24px;
+  color: rgba(0, 0, 0, 0.65);
+  background: #fff;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e8e8e8;
+  border-radius: 4px 4px 0 0;
+}
+
+.modal-form h3 {
+  font-size: 1rem !important;
+  font-weight: bold;
+  color: #202224 !important;
+  text-align: center;
+}
+
+.modal-form h4 {
+  margin: 5px 0 15px;
+  display: block;
+  color: #20222459 !important;
+
+  font-size: 30px;
+  font-weight: 400;
+}
+.modal-form h5 {
+  margin: 5px 0 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.modal-form textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.modal-form select,
+.modal-form input[type="url"],
+.modal-form input[type="date"],
+.modal-form input[type="text"],
+.modal-form input[type="email"],
+.modal-form input[type="tel"],
+.modal-form input[type="password"] {
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  font-feature-settings: "tnum";
+  margin-bottom: 24px;
+  vertical-align: top;
+  position: relative;
+  min-height: 1px;
+  width: 100% !important;
+  height: 46px !important;
+  padding: 4px 11px;
+  color: #393c40 !important;
+  font-size: 0.875rem !important;
+  background-color: #fff !important;
+  border-radius: 3px;
+  border: 1px solid #2626263f;
+  display: flex;
+  align-items: center;
+}
+
+.modal-footer {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  font-feature-settings: "tnum";
+  margin-bottom: 24px;
+  vertical-align: top;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.modal-form select:hover,
+.modal-form input[type="url"]:hover,
+.modal-form input[type="range"]:hover,
+.modal-form input[type="date"]:hover,
+.modal-form input[type="text"]:hover,
+.modal-form input[type="email"]:hover,
+.modal-form input[type="tel"]:hover,
+.modal-form input[type="password"]:hover,
+.modal-form textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+.modal-form textarea {
+  height: 100px;
+  max-width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #2626263f;
+  resize: none;
+}
+
+.modal-form input[type="submit"],
+.modal-form input[type="button"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #e50e37;
+  margin: 5px 20px 5px;
+  padding: 10px;
+  color: #fefefe;
+  min-width: 115px;
+  min-height: 46px;
+  font-size: 0.875rem;
+  line-height: 1.499;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  touch-action: manipulation;
+  border-radius: 4px;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover,
+.modal-form input[type="submit"]:hover,
+.modal-form input[type="button"]:hover {
+  background: #fd3e61;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.text-small-modal-form {
+  font-size: 80%;
+  font-weight: 400;
+  text-align: end;
+}
+
+.modal-form input:focus,
+.modal-form textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+.modal-form input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 50%;
+  height: 25px;
+  margin: 10px 0;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.modal-form input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #fd3e61;
+  cursor: pointer;
+}
+
+.modal-form .inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.modal-form .inputfile + label {
+  font-size: 0.9em;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background: #e50e35;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+[type="date"] {
+  background: #fff
+    url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
+    97% 50% no-repeat;
+  cursor: pointer;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.fas.fa-plus-circle.open-modal {
+  color: rgb(24, 78, 194);
+  font-size: 1.3em;
+  transition: 0.3s ease-in-out;
+}
+
+.fas.fa-plus-circle.open-modal:hover {
+  color: rgb(24, 78, 194);
+  font-size: 1.6em;
+}
+
+.modal-body {
+  padding: 24px 24px 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}

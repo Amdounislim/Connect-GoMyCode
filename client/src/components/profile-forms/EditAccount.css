@@ -1,0 +1,17 @@
+
+
+.password-edit-container {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.from-to-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.from-to-container > * {
+  margin: 0 10px;
+}

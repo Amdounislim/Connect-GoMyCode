@@ -1,0 +1,155 @@
+#dashboard-admin {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+#admin-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  padding: 0.5rem;
+  height: 100vh;
+  color: #fff;
+  background-color: #262626;
+  z-index: 100;
+  transition: width 0.3s ease-in-out;
+}
+#admin-menu .brand-logo {
+  text-align: center;
+  margin: 1.5rem 0 0.5rem;
+  animation: fade-in 0.3s linear;
+}
+
+#admin-menu ul {
+  animation: fade-in 0.3s linear;
+  font-size: 20px;
+}
+
+.closed-menu {
+  width: 2%;
+}
+.open-menu {
+  width: 20%;
+}
+.hidden {
+  display: none;
+}
+
+#admin-content {
+  width: 90%;
+  margin: auto;
+  padding-top: 10rem;
+  overflow-x: auto;
+}
+
+/*Users Table*/
+
+#users {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+}
+
+#users td,
+#users th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#users tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#users tr:hover {
+  background-color: #ddd;
+}
+
+#users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #262626c2;
+  color: white;
+}
+
+/*Search*/
+
+form.search-user-admin {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+form.search-user-admin input[type="text"] {
+  outline: 0;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-right: none;
+  float: left;
+  width: 50%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.search-user-admin button {
+  float: left;
+  padding: 10px;
+  background: #f1f1f1;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+form.search-user-admin label {
+  margin-right: 20px;
+}
+
+form.search-user-admin .fa.fa-search {
+  color: #26262688;
+}
+
+/* Clear floats */
+form.search-user-admin::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form.search-user-admin select {
+  padding: 10px;
+}
+
+.add-score {
+  padding: 1rem;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Responsive layout*/
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .closed-menu {
+    width: 2%;
+  }
+  .open-menu {
+    width: 50%;
+  }
+}

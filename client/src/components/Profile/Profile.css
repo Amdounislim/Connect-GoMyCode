@@ -1,0 +1,145 @@
+/* Profile */
+
+#profile {
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 5rem;
+}
+
+.profile-general-info {
+  font-size: 0.98rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0.5rem;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.37);
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-info > li:first-child {
+  text-align: center;
+}
+.profile-info > li {
+  margin: 0.55em;
+}
+
+.profile-social {
+  font-size: 30px;
+}
+.profile-social a {
+  margin: 0.5em;
+}
+
+.profile-info > li i {
+  margin-right: 10px;
+}
+
+.info-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Profile content */
+.profile-content {
+  margin: 1rem 0 0rem 1rem;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.37);
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+.profile-content-menu {
+  display: flex;
+  margin: 1rem;
+}
+.profile-content-menu li a {
+  position: relative;
+  text-decoration: none;
+  color: rgba(34, 45, 107);
+  margin: 1em;
+  cursor: pointer;
+}
+.profile-content-menu li a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 0.5px;
+  right: 0;
+  background: rgba(34, 45, 107);
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+.profile-content-menu li a:hover:after {
+  width: 105%;
+  left: 0;
+  background: #262626bd;
+}
+
+/*Progress bar */
+.progress-container {
+  height: 15px;
+  width: 120px;
+  border: 1px solid rgba(0, 0, 0, 0.493);
+  border-radius: 2px;
+  position: relative;
+  box-shadow: -1px 1px 4px 2px rgba(0, 0, 0, 0.329);
+}
+.progress-fill {
+  position: absolute;
+  height: 100%;
+  background: linear-gradient(
+    139deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(34, 45, 107, 0.9) 41%,
+    rgba(76, 34, 107, 0.8) 93%
+  );
+}
+
+/* Active link */
+#active:after {
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 2px;
+  display: block;
+  margin-top: 0.5px;
+  left: 0;
+  background: rgba(34, 45, 107);
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+
+/*Ecperience Card  */
+
+.experience-container,
+.education-container {
+  display: none;
+}
+
+.experience-card,
+.education-card {
+  font-weight: 400;
+  font-size: 0.88rem;
+  color: rgb(245, 245, 245);
+  background-color: rgb(28, 28, 28);
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
+}
+
+.project-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}

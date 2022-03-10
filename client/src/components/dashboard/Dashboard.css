@@ -1,0 +1,103 @@
+.dashboard-container {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+}
+
+.dashboard-container-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-icone-user {
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding: 25px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 1%;
+  padding: 1rem;
+  box-shadow: 1px 1px 6px 0px rgba(0, 0, 0, 0.05);
+}
+.container-icone-user h4 {
+  font-size: 20px;
+  margin: 10px 0px;
+  color: #0e0d0da2;
+}
+.container-icone-user .text-small {
+  margin-bottom: 5px;
+  color: #2626266e;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0 0 1%;
+}
+.dashboard-container h1 {
+  color: #262626;
+  padding: 2rem 6rem;
+}
+.container-icone-user p {
+  margin-bottom: 1%;
+}
+.dashboard-container button {
+  background-color: #e50e37;
+  color: #fff;
+  height: 35px;
+  min-width: 100px;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.container-task-dashboard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1% 30% 1% 0%;
+}
+
+.container-task-dashboard button {
+  background-color: #eeeeee;
+  color: #e50e37;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+.container-task-dashboard a {
+  color: black;
+  margin-left: 5%;
+  font-size: initial;
+}
+
+.container-task-dashboard h2 {
+  margin: 1% 0%;
+  color: #262626de;
+}
+
+.fab.fa-linkedin {
+  color: rgb(27, 88, 202);
+  font-size: 1em;
+}
+
+.fab.fa-github {
+  color: black;
+  font-size: 1em;
+}
+
+.fas.fa-trash {
+  cursor: pointer;
+  color: #26262694;
+  font-size: 1em;
+  transition: 0.3s ease-in-out;
+}
+.fas.fa-trash:hover {
+  color: #e93636c2;
+  font-size: 1.5em;
+}

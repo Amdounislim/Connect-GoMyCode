@@ -1,0 +1,159 @@
+.profiles-page-container {
+  margin-top: 5rem;
+  padding: 1.5rem;
+}
+
+.profiles-page-container h1 {
+  text-align: center;
+  color: #262626;
+  padding: 2rem 6rem;
+}
+.profiles-container {
+  display: flex;
+  padding: 0 1.5rem;
+  flex-wrap: wrap;
+}
+
+.list-profiles {
+  padding: 0rem;
+}
+
+.profiles-filter {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.filter-checkbox {
+  margin-right: 20px;
+  border: 1px solid #262626;
+  border-bottom: none;
+}
+.filter-checkbox:last-child {
+  margin-right: 20px;
+  border: 1px solid #262626;
+}
+
+.filter-checkbox h5 {
+  color: #262626;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.filter-checkbox h5:hover,
+.filter-checkbox:hover > h5 {
+  color: white;
+  background-color: #262626;
+}
+
+.filter-studies input,
+.filter-skills input,
+.filter-status input {
+  margin: 0.5rem;
+}
+.filter-studies label,
+.filter-skills label,
+.filter-status label {
+  font-size: 13px;
+}
+
+.filter-studies {
+  overflow: hidden;
+  height: 150px;
+}
+
+.filter-skills {
+  overflow: hidden;
+  height: 240px;
+}
+.filter-status {
+  overflow: hidden;
+  height: 120px;
+}
+
+.collapse-show {
+  transition: 0.5s ease-in-out;
+  border-top: 1px solid #262626;
+}
+.collapse-hidden {
+  height: 0;
+  transition: height 0.5s ease-in-out;
+}
+
+/* Search Component*/
+
+.search-profile-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 0;
+  min-height: 50px;
+}
+
+.tag-filter {
+  color: white;
+  background-color: #262626;
+  font-size: 11px;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+  display: flex;
+  justify-content: space-between;
+  min-width: 120px;
+  border-radius: 5%;
+  align-items: center;
+  margin: 5px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.search-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.search-profile input[type="text"] {
+  outline: 0;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-right: none;
+  float: left;
+  width: 50%;
+  background: #f1f1f1;
+}
+
+.search-profile button {
+  float: left;
+  padding: 10px;
+  background: #f1f1f1;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.search-profile label {
+  margin-right: 20px;
+}
+
+.search-profile .fa.fa-search {
+  color: #26262688;
+}
+
+/* .fa.fa-map-marker-alt {
+  margin-right: 10px;
+} */

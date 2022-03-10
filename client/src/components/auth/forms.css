@@ -1,0 +1,15 @@
+#showcase-register,
+#showcase-login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+#showcase-register {
+  background: url("../../images/illustration1.png") no-repeat left;
+  background-size: 60%;
+}
+#showcase-login {
+  background: url("../../images/illustration2.png") no-repeat left;
+  background-size: 60%;
+}
+

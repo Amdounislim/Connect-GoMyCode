@@ -1,0 +1,57 @@
+.profileCard {
+  width: 534px;
+  height: 204px;
+  min-height: 145px;
+  border: 1px solid #dadada;
+  padding: 25px 25px 25px 65px;
+  margin: 50px;
+  box-shadow: 0 2px #dadada;
+  position: relative;
+  cursor: pointer;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.profileCard h2 {
+  font-size: 32px;
+  margin: 0;
+  width: 75%;
+  font-family: "PFDinTextCompProBold", Impact, Arial;
+  text-transform: uppercase;
+  line-height: 0.9;
+  font-weight: normal;
+}
+
+.workExperince {
+  margin: 0;
+  display: flex;
+  vertical-align: baseline;
+  min-height: 28px;
+}
+
+.work-details {
+  margin: 0;
+  padding-left: 11px;
+}
+.work-details p {
+  margin: 0;
+}
+.work-icon,
+.education-icon {
+  text-align: center;
+  width: 5%;
+  float: left;
+}
+
+.education {
+  margin: 0;
+  display: flex;
+  vertical-align: baseline;
+}
+.education-details p {
+  margin: 0;
+}
+.education-details {
+  margin: 0;
+  padding-left: 11px;
+}

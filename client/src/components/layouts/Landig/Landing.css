@@ -1,0 +1,43 @@
+#showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background: url("../../../images/illustration3.png") no-repeat right;
+  background-size: 75%;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.showcase-intro {
+  color: #262626;
+  text-align: center;
+  padding-right: 8rem;
+  padding-top: 16rem;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+}
+.showcase-intro h1 {
+  font-size: 30px;
+}
+.showcase-intro p {
+  font-size: 22px;
+}
+.text-bold {
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .showcase-intro {
+    background-color: #2626268f;
+    color: #f9f9f9;
+    padding-right: 0;
+  }
+  #showcase {
+    background: url("../../../images/illustration3.png") no-repeat cover;
+    background-size: 100%;
+  }
+}
+
